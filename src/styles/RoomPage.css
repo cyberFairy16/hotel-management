@@ -1,0 +1,27 @@
+.room-page {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .room-page img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .room-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .room-page .btn {
+    display: inline-block;
+    background: #007aff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  

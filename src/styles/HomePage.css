@@ -1,0 +1,48 @@
+.hero {
+  background-image: url("HomePage_Background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;  /* Stack children vertically */
+  align-items: center;  /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Make hero section full height */
+}
+
+.hero h1 {
+  margin-bottom: 10px; /* Space between h1 and p */
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 0; /* Remove unwanted margins */
+}
+  
+.room-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.login-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}

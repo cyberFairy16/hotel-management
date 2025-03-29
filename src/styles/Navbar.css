@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Reduce padding */
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem; /* Reduce the font size of the title */
+    margin: 0;
+    color: black;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px; /* Space between links */
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    padding: 5px 10px; /* Reduce padding around links */
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; /* Smaller font size for links */
+  }
+  
+  .navbar-links li a:hover {
+    text-decoration: underline;
+  }
+  
