@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/AuthPage.css";
 
+
 const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true); // State to toggle between login and register
   const [formData, setFormData] = useState({
