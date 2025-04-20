@@ -17,6 +17,23 @@ const HomePage = () => {
         <button className="login-btn" onClick={() => navigate("/auth")}>
           Login / Register
         </button>
+      
+      {/* Loyalty Program Button */}
+      <button
+          className="loyalty-btn"
+          onClick={() => navigate("/loyalty")}
+          style={{
+            padding: "10px 20px",
+            backgroundColor: "green",
+            color: "white",
+            border: "none",
+            borderRadius: "5px",
+            marginTop: "20px",
+            cursor: "pointer",
+          }}
+        >
+          Go to Loyalty Program
+        </button>
       </div>
 
       <div className="room-list">
